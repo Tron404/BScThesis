@@ -11,7 +11,7 @@ from mapping_methods import *
 from sklearn.model_selection import train_test_split
 
 PATH = "Thesis/Embeddings"
-CORES = 10
+CORES = 5
 
 device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
 print(torch.cuda.is_available())

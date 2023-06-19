@@ -3,7 +3,7 @@
 #SBATCH --gpus-per-node=a100:1
 #SBATCH --tasks-per-node=10
 #SBATCH --job-name=map
-#SBATCH --mem=20G
+#SBATCH --mem=10G
 #SBATCH --partition=gpu
 #SBATCH --time=04:00:00
 

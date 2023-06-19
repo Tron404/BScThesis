@@ -28,7 +28,7 @@ model_plot_names = {
 }
 
 def mate_retrieval(l1_vecs, l2_vecs):
-    l1_vecs, l2_vecs = torch.tensor(l1_vecs).to(device), torch.tensor(l2_vecs).to(device)
+    l1_vecs, l2_vecs = torch.as_tensor(l1_vecs).to(device), torch.as_tensor(l2_vecs).to(device)
     l1_vecs, l2_vecs = normalize(l1_vecs).to(device), normalize(l2_vecs).to(device)
     sim = torch.matmul(l1_vecs,l2_vecs.T).to(device)
     '''Mate retrieval rate - the rate when the most symmetric document is ones translation.'''
