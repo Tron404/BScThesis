@@ -1,2279 +1,0 @@
-The following modules were not unloaded:
-  (Use "module --force purge" to unload all):
-
-  1) 2023.01   2) StdEnv
-
-The following have been reloaded with a version change:
-  1) GCCcore/12.2.0 => GCCcore/11.3.0
-  2) GMP/6.2.1-GCCcore-12.2.0 => GMP/6.2.1-GCCcore-11.3.0
-  3) Python/3.10.8-GCCcore-12.2.0 => Python/3.10.4-GCCcore-11.3.0
-  4) SQLite/3.39.4-GCCcore-12.2.0 => SQLite/3.38.3-GCCcore-11.3.0
-  5) Tcl/8.6.12-GCCcore-12.2.0 => Tcl/8.6.12-GCCcore-11.3.0
-  6) XZ/5.2.7-GCCcore-12.2.0 => XZ/5.2.5-GCCcore-11.3.0
-  7) binutils/2.39-GCCcore-12.2.0 => binutils/2.38-GCCcore-11.3.0
-  8) bzip2/1.0.8-GCCcore-12.2.0 => bzip2/1.0.8-GCCcore-11.3.0
-  9) libffi/3.4.4-GCCcore-12.2.0 => libffi/3.4.2-GCCcore-11.3.0
- 10) libreadline/8.2-GCCcore-12.2.0 => libreadline/8.1.2-GCCcore-11.3.0
- 11) ncurses/6.3-GCCcore-12.2.0 => ncurses/6.3-GCCcore-11.3.0
- 12) zlib/1.2.12-GCCcore-12.2.0 => zlib/1.2.12-GCCcore-11.3.0
-
-2023-06-18 21:09:49.988575: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-True
-True
---------- Using lcc
-2023-06-18 21:10:02.947255: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:02.951425: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:02.958480: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:02.959849: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:02.975643: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-True
-True
-en-nl for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.009091854095458984s to process the data for en-nl
-True
-True
-en-ro for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.007513284683227539s to process the data for en-ro
-True
-True
-en-de for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.005360126495361328s to process the data for en-de
-True
-True
-en-fr for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.004452943801879883s to process the data for en-fr
-True
-True
-ro-en for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.0027756690979003906s to process the data for ro-en
-Reached 5 processes - joining
-2023-06-18 21:10:09.586397: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:09.589902: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:09.591283: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:09.593101: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:09.596654: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-True
-True
-fr-ro for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.005661725997924805s to process the data for fr-ro
-True
-True
-ro-de for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.006832599639892578s to process the data for ro-de
-True
-True
-fr-en for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.00600433349609375s to process the data for fr-en
-True
-True
-ro-fr for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.004418373107910156s to process the data for ro-fr
-True
-True
-ro-nl for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.003907918930053711s to process the data for ro-nl
-Reached 5 processes - joining
-2023-06-18 21:10:16.206808: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:16.216429: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:16.234053: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:16.234054: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:16.234055: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-True
-True
-de-fr for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.002767801284790039s to process the data for de-fr
-True
-True
-de-en for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.0025429725646972656s to process the data for de-en
-True
-True
-fr-nl for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.007222414016723633s to process the data for fr-nl
-True
-True
-fr-de for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.002775430679321289s to process the data for fr-de
-True
-True
-de-ro for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.002871274948120117s to process the data for de-ro
-Reached 5 processes - joining
-2023-06-18 21:10:21.933266: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:21.974628: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:21.983725: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:22.006745: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:22.006752: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-True
-True
-nl-ro for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.0027976036071777344s to process the data for nl-ro
-True
-True
-nl-en for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.002676725387573242s to process the data for nl-en
-True
-True
-de-nl for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.002678394317626953s to process the data for de-nl
-True
-True
-nl-de for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.0025916099548339844s to process the data for nl-de
-True
-True
-nl-fr for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.0025739669799804688s to process the data for nl-fr
-Reached 5 processes - joining
-2023-06-18 21:10:28.051656: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:28.090152: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:28.095835: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:28.098342: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:28.104816: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-True
-True
-en-nl for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.003504037857055664s to process the data for en-nl
-True
-True
-en-ro for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.003928184509277344s to process the data for en-ro
-True
-True
-en-fr for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.010746002197265625s to process the data for en-fr
-True
-True
-ro-en for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.0034923553466796875s to process the data for ro-en
-True
-True
-en-de for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.0032558441162109375s to process the data for en-de
-Reached 5 processes - joining
-2023-06-18 21:10:34.198602: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:34.238521: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:34.254773: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:34.255288: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:34.256518: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-True
-True
-fr-en for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.008866548538208008s to process the data for fr-en
-True
-True
-ro-fr for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.008211374282836914s to process the data for ro-fr
-True
-True
-fr-ro for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.005796194076538086s to process the data for fr-ro
-True
-True
-ro-nl for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.003962516784667969s to process the data for ro-nl
-True
-True
-ro-de for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.003162384033203125s to process the data for ro-de
-Reached 5 processes - joining
-2023-06-18 21:10:40.680813: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:40.695379: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:40.707830: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:40.719673: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:10:40.736027: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-True
-True
-de-ro for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.004616498947143555s to process the data for de-ro
-True
-True
-fr-de for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.008860588073730469s to process the data for fr-de
-/home2/s4231317/mapping_script_MP.py:61: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  /dev/shm/bob/PyTorch/1.12.1/foss-2022a-CUDA-11.7.0/pytorch-v1.12.1/torch/csrc/utils/tensor_numpy.cpp:172.)
-  sl_vec = torch.as_tensor(sl_vec).to(device)
-True
-True
-de-en for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.014594316482543945s to process the data for de-en
-True
-True
-de-fr for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.0076634883880615234s to process the data for de-fr
-True
-True
-fr-nl <function lcc at 0x7f65b1833ac0> Thesis/Results/mate_retrieval/fr-nl/
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: bert-base-multilingual-uncased | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]LCC:   7%|▋         | 1/15 [00:02<00:33,  2.38s/it]LCC:  13%|█▎        | 2/15 [00:05<00:33,  2.57s/it]LCC:  20%|██        | 3/15 [00:09<00:42,  3.57s/it]LCC:  27%|██▋       | 4/15 [00:17<00:55,  5.09s/it]LCC:  33%|███▎      | 5/15 [00:26<01:05,  6.54s/it]LCC:  40%|████      | 6/15 [00:37<01:14,  8.26s/it]LCC:  47%|████▋     | 7/15 [00:52<01:22, 10.33s/it]LCC:  53%|█████▎    | 8/15 [01:09<01:26, 12.42s/it]LCC:  60%|██████    | 9/15 [01:29<01:28, 14.74s/it]LCC:  67%|██████▋   | 10/15 [01:52<01:26, 17.21s/it]LCC:  73%|███████▎  | 11/15 [02:16<01:17, 19.47s/it]LCC:  80%|████████  | 12/15 [02:42<01:04, 21.37s/it]LCC:  87%|████████▋ | 13/15 [03:11<00:47, 23.74s/it]LCC:  93%|█████████▎| 14/15 [03:44<00:26, 26.45s/it]LCC: 100%|██████████| 15/15 [04:17<00:00, 28.55s/it]LCC: 100%|██████████| 15/15 [04:17<00:00, 17.18s/it]
-[0.983199954032898, 0.05719999969005585] [600, 300]
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: mt5-base | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]LCC:   7%|▋         | 1/15 [00:01<00:15,  1.11s/it]LCC:  13%|█▎        | 2/15 [00:03<00:25,  1.98s/it]LCC:  20%|██        | 3/15 [00:07<00:35,  2.97s/it]LCC:  27%|██▋       | 4/15 [00:14<00:47,  4.27s/it]LCC:  33%|███▎      | 5/15 [00:22<00:58,  5.80s/it]LCC:  40%|████      | 6/15 [00:33<01:07,  7.52s/it]LCC:  47%|████▋     | 7/15 [00:46<01:14,  9.37s/it]LCC:  53%|█████▎    | 8/15 [01:02<01:19, 11.34s/it]LCC:  60%|██████    | 9/15 [01:20<01:20, 13.45s/it]LCC:  67%|██████▋   | 10/15 [01:41<01:19, 15.94s/it]LCC:  73%|███████▎  | 11/15 [02:06<01:14, 18.52s/it]LCC:  80%|████████  | 12/15 [02:32<01:02, 20.89s/it]LCC:  87%|████████▋ | 13/15 [03:01<00:46, 23.35s/it]LCC:  93%|█████████▎| 14/15 [03:34<00:26, 26.26s/it]LCC: 100%|██████████| 15/15 [04:08<00:00, 28.62s/it]LCC: 100%|██████████| 15/15 [04:08<00:00, 16.57s/it]
-[0.9455999732017517, 0.6380000114440918] [750, 768]
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: xlm-roberta-base | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]LCC:   7%|▋         | 1/15 [00:01<00:14,  1.07s/it]LCC:  13%|█▎        | 2/15 [00:03<00:27,  2.13s/it]LCC:  20%|██        | 3/15 [00:08<00:38,  3.21s/it]LCC:  27%|██▋       | 4/15 [00:15<00:51,  4.67s/it]LCC:  33%|███▎      | 5/15 [00:24<01:04,  6.45s/it]LCC:  40%|████      | 6/15 [00:35<01:11,  7.99s/it]LCC:  47%|████▋     | 7/15 [00:49<01:19,  9.88s/it]LCC:  53%|█████▎    | 8/15 [01:06<01:24, 12.01s/it]LCC:  60%|██████    | 9/15 [01:25<01:25, 14.19s/it]LCC:  67%|██████▋   | 10/15 [01:46<01:21, 16.23s/it]LCC:  73%|███████▎  | 11/15 [02:09<01:14, 18.59s/it]LCC:  80%|████████  | 12/15 [02:36<01:03, 21.03s/it]LCC:  87%|████████▋ | 13/15 [03:05<00:47, 23.51s/it]LCC:  93%|█████████▎| 14/15 [03:37<00:25, 25.96s/it]LCC: 100%|██████████| 15/15 [04:10<00:00, 28.09s/it]LCC: 100%|██████████| 15/15 [04:10<00:00, 16.70s/it]
-[0.9711999893188477, 0.012399999424815178] [768, 400]
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: ernie-m-base_pytorch | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]LCC:   7%|▋         | 1/15 [00:00<00:12,  1.08it/s]LCC:  13%|█▎        | 2/15 [00:03<00:24,  1.88s/it]LCC:  20%|██        | 3/15 [00:07<00:35,  2.95s/it]LCC:  27%|██▋       | 4/15 [00:13<00:46,  4.26s/it]LCC:  33%|███▎      | 5/15 [00:22<00:57,  5.80s/it]LCC:  40%|████      | 6/15 [00:33<01:08,  7.57s/it]LCC:  47%|████▋     | 7/15 [00:46<01:15,  9.45s/it]LCC:  53%|█████▎    | 8/15 [01:02<01:20, 11.51s/it]LCC:  60%|██████    | 9/15 [01:20<01:21, 13.59s/it]LCC:  67%|██████▋   | 10/15 [01:41<01:19, 15.84s/it]LCC:  73%|███████▎  | 11/15 [02:04<01:12, 18.10s/it]LCC:  80%|████████  | 12/15 [02:31<01:01, 20.62s/it]LCC:  87%|████████▋ | 13/15 [03:00<00:46, 23.25s/it]LCC:  93%|█████████▎| 14/15 [03:33<00:26, 26.15s/it]LCC: 100%|██████████| 15/15 [04:07<00:00, 28.44s/it]LCC: 100%|██████████| 15/15 [04:07<00:00, 16.49s/it]
-[0.9824000000953674, 0.5776000022888184] [450, 450]
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |  491520 KB |  491520 KB |  491520 KB |
-|       from large pool |       0 B  |  485376 KB |  485376 KB |  485376 KB |
-|       from small pool |       0 B  |    6144 KB |    6144 KB |    6144 KB |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |  266461 KB |   19015 MB |   19015 MB |
-|       from large pool |       0 B  |  264416 KB |   17282 MB |   17282 MB |
-|       from small pool |       0 B  |    4095 KB |    1733 MB |    1733 MB |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |      15    |      15    |      15    |
-|       from large pool |       0    |      12    |      12    |      12    |
-|       from small pool |       0    |       3    |       3    |       3    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |      16    |  564219    |  564219    |
-|       from large pool |       0    |      14    |     647    |     647    |
-|       from small pool |       0    |       5    |  563572    |  563572    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |  491520 KB |  491520 KB |  491520 KB |
-|       from large pool |       0 B  |  485376 KB |  485376 KB |  485376 KB |
-|       from small pool |       0 B  |    6144 KB |    6144 KB |    6144 KB |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |  266461 KB |   19015 MB |   19015 MB |
-|       from large pool |       0 B  |  264416 KB |   17282 MB |   17282 MB |
-|       from small pool |       0 B  |    4095 KB |    1733 MB |    1733 MB |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |      15    |      15    |      15    |
-|       from large pool |       0    |      12    |      12    |      12    |
-|       from small pool |       0    |       3    |       3    |       3    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |      16    |  564219    |  564219    |
-|       from large pool |       0    |      14    |     647    |     647    |
-|       from small pool |       0    |       5    |  563572    |  563572    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 1006.5778565406799s to process the data for fr-nl
-Reached 5 processes - joining
-2023-06-18 21:27:33.904470: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:27:33.904472: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:27:33.904471: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:27:33.904474: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2023-06-18 21:27:33.904472: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-/home2/s4231317/mapping_script_MP.py:61: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  /dev/shm/bob/PyTorch/1.12.1/foss-2022a-CUDA-11.7.0/pytorch-v1.12.1/torch/csrc/utils/tensor_numpy.cpp:172.)
-  sl_vec = torch.as_tensor(sl_vec).to(device)
-/home2/s4231317/mapping_script_MP.py:61: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  /dev/shm/bob/PyTorch/1.12.1/foss-2022a-CUDA-11.7.0/pytorch-v1.12.1/torch/csrc/utils/tensor_numpy.cpp:172.)
-  sl_vec = torch.as_tensor(sl_vec).to(device)
-True
-True
-nl-en for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.013376712799072266s to process the data for nl-en
-/home2/s4231317/mapping_script_MP.py:61: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  /dev/shm/bob/PyTorch/1.12.1/foss-2022a-CUDA-11.7.0/pytorch-v1.12.1/torch/csrc/utils/tensor_numpy.cpp:172.)
-  sl_vec = torch.as_tensor(sl_vec).to(device)
-True
-True
-nl-de <function lcc at 0x7fdb82d27ac0> Thesis/Results/mate_retrieval/nl-de/
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: bert-base-multilingual-uncased | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]True
-True
-de-nl <function lcc at 0x7f06d0b57ac0> Thesis/Results/mate_retrieval/de-nl/
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: bert-base-multilingual-uncased | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]True
-True
-nl-fr <function lcc at 0x7fd6d0a0fac0> Thesis/Results/mate_retrieval/nl-fr/
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: bert-base-multilingual-uncased | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]True
-True
-nl-ro for lcc is already present, moving to the next pair
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from large pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|       from small pool |       0 B  |       0 B  |       0 B  |       0 B  |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |       0    |       0    |       0    |
-|       from large pool |       0    |       0    |       0    |       0    |
-|       from small pool |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 0.0030918121337890625s to process the data for nl-ro
-LCC:   7%|▋         | 1/15 [00:07<01:40,  7.16s/it]LCC:   7%|▋         | 1/15 [00:07<01:43,  7.38s/it]LCC:   7%|▋         | 1/15 [00:07<01:44,  7.49s/it]LCC:  13%|█▎        | 2/15 [00:20<02:19, 10.71s/it]LCC:  13%|█▎        | 2/15 [00:20<02:21, 10.88s/it]LCC:  13%|█▎        | 2/15 [00:20<02:23, 11.05s/it]LCC:  20%|██        | 3/15 [00:41<03:02, 15.22s/it]LCC:  20%|██        | 3/15 [00:41<03:04, 15.40s/it]LCC:  20%|██        | 3/15 [00:42<03:11, 15.98s/it]LCC:  27%|██▋       | 4/15 [01:12<03:58, 21.69s/it]LCC:  27%|██▋       | 4/15 [01:13<03:59, 21.78s/it]LCC:  27%|██▋       | 4/15 [01:15<04:09, 22.71s/it]LCC:  33%|███▎      | 5/15 [01:56<04:54, 29.47s/it]LCC:  33%|███▎      | 5/15 [01:57<04:57, 29.70s/it]LCC:  33%|███▎      | 5/15 [01:57<04:59, 29.97s/it]LCC:  40%|████      | 6/15 [02:50<05:42, 38.08s/it]LCC:  40%|████      | 6/15 [02:51<05:41, 37.95s/it]LCC:  40%|████      | 6/15 [02:53<05:46, 38.52s/it]LCC:  47%|████▋     | 7/15 [03:52<06:04, 45.50s/it]LCC:  47%|████▋     | 7/15 [03:54<06:11, 46.47s/it]LCC:  47%|████▋     | 7/15 [03:55<06:11, 46.40s/it]LCC:  53%|█████▎    | 8/15 [05:02<06:13, 53.42s/it]LCC:  53%|█████▎    | 8/15 [05:08<06:27, 55.30s/it]LCC:  53%|█████▎    | 8/15 [05:10<06:27, 55.39s/it]LCC:  60%|██████    | 9/15 [06:24<06:13, 62.27s/it]LCC:  60%|██████    | 9/15 [06:28<06:17, 62.91s/it]LCC:  60%|██████    | 9/15 [06:33<06:24, 64.10s/it]LCC:  67%|██████▋   | 10/15 [08:03<06:08, 73.63s/it]LCC:  67%|██████▋   | 10/15 [08:09<06:09, 73.91s/it]LCC:  67%|██████▋   | 10/15 [08:09<06:13, 74.66s/it]LCC:  73%|███████▎  | 11/15 [09:53<05:39, 84.79s/it]LCC:  73%|███████▎  | 11/15 [10:02<05:45, 86.29s/it]LCC:  73%|███████▎  | 11/15 [10:04<05:46, 86.57s/it]LCC:  80%|████████  | 12/15 [11:58<04:50, 96.92s/it]LCC:  80%|████████  | 12/15 [12:09<04:56, 98.93s/it]LCC:  80%|████████  | 12/15 [12:11<04:56, 98.81s/it]LCC:  87%|████████▋ | 13/15 [14:11<03:36, 108.07s/it]LCC:  87%|████████▋ | 13/15 [14:27<03:41, 110.76s/it]LCC:  87%|████████▋ | 13/15 [14:31<03:42, 111.31s/it]LCC:  93%|█████████▎| 14/15 [16:32<01:57, 117.84s/it]LCC:  93%|█████████▎| 14/15 [16:45<01:58, 118.27s/it]LCC:  93%|█████████▎| 14/15 [16:54<02:01, 121.53s/it]LCC: 100%|██████████| 15/15 [18:53<00:00, 124.79s/it]LCC: 100%|██████████| 15/15 [18:53<00:00, 75.55s/it] 
-[0.9711999893188477, 0.14100000262260437] [550, 750]
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: mt5-base | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]LCC:   7%|▋         | 1/15 [00:02<00:37,  2.66s/it]LCC:  13%|█▎        | 2/15 [00:11<01:19,  6.13s/it]LCC: 100%|██████████| 15/15 [19:13<00:00, 126.96s/it]LCC: 100%|██████████| 15/15 [19:13<00:00, 76.87s/it] 
-[0.9815999865531921, 0.18379999697208405] [500, 600]
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: mt5-base | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]LCC: 100%|██████████| 15/15 [19:13<00:00, 126.80s/it]LCC: 100%|██████████| 15/15 [19:13<00:00, 76.89s/it] 
-[0.9775999784469604, 0.17599999904632568] [600, 768]
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: mt5-base | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]LCC:   7%|▋         | 1/15 [00:05<01:20,  5.76s/it]LCC:   7%|▋         | 1/15 [00:05<01:19,  5.67s/it]LCC:  20%|██        | 3/15 [00:28<02:16, 11.34s/it]LCC:  13%|█▎        | 2/15 [00:18<02:05,  9.66s/it]LCC:  13%|█▎        | 2/15 [00:18<02:07,  9.79s/it]LCC:  20%|██        | 3/15 [00:37<02:48, 14.07s/it]LCC:  20%|██        | 3/15 [00:37<02:46, 13.91s/it]LCC:  27%|██▋       | 4/15 [00:58<03:24, 18.56s/it]LCC:  27%|██▋       | 4/15 [01:07<03:44, 20.42s/it]LCC:  27%|██▋       | 4/15 [01:08<03:47, 20.70s/it]LCC:  33%|███▎      | 5/15 [01:35<04:13, 25.33s/it]LCC:  33%|███▎      | 5/15 [01:46<04:29, 26.95s/it]LCC:  33%|███▎      | 5/15 [01:48<04:37, 27.71s/it]LCC:  40%|████      | 6/15 [02:23<04:56, 32.98s/it]LCC:  40%|████      | 6/15 [02:35<05:10, 34.44s/it]LCC:  40%|████      | 6/15 [02:39<05:22, 35.84s/it]LCC:  47%|████▋     | 7/15 [03:18<05:22, 40.28s/it]LCC:  47%|████▋     | 7/15 [03:35<05:41, 42.74s/it]LCC:  47%|████▋     | 7/15 [03:36<05:42, 42.77s/it]LCC:  53%|█████▎    | 8/15 [04:26<05:42, 48.86s/it]LCC:  53%|█████▎    | 8/15 [04:42<05:53, 50.50s/it]LCC:  53%|█████▎    | 8/15 [04:46<06:00, 51.47s/it]LCC:  60%|██████    | 9/15 [05:43<05:46, 57.71s/it]LCC:  60%|██████    | 9/15 [06:02<05:59, 59.85s/it]LCC:  60%|██████    | 9/15 [06:08<06:04, 60.78s/it]LCC:  67%|██████▋   | 10/15 [07:14<05:40, 68.10s/it]LCC:  67%|██████▋   | 10/15 [07:34<05:48, 69.75s/it]LCC:  67%|██████▋   | 10/15 [07:42<05:56, 71.26s/it]LCC:  73%|███████▎  | 11/15 [08:58<05:16, 79.06s/it]LCC:  73%|███████▎  | 11/15 [09:22<05:25, 81.36s/it]LCC:  73%|███████▎  | 11/15 [09:29<05:28, 82.16s/it]LCC:  80%|████████  | 12/15 [10:55<04:31, 90.62s/it]LCC:  80%|████████  | 12/15 [11:26<04:43, 94.35s/it]LCC:  80%|████████  | 12/15 [11:32<04:43, 94.38s/it]LCC:  87%|████████▋ | 13/15 [13:08<03:26, 103.31s/it]LCC:  87%|████████▋ | 13/15 [13:42<03:34, 107.02s/it]LCC:  87%|████████▋ | 13/15 [13:48<03:34, 107.01s/it]LCC:  93%|█████████▎| 14/15 [15:27<01:54, 114.14s/it]LCC:  93%|█████████▎| 14/15 [16:03<01:57, 117.40s/it]LCC:  93%|█████████▎| 14/15 [16:07<01:56, 116.77s/it]LCC: 100%|██████████| 15/15 [17:51<00:00, 123.09s/it]LCC: 100%|██████████| 15/15 [17:51<00:00, 71.41s/it] 
-[0.9391999840736389, 0.5785999894142151] [768, 768]
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: xlm-roberta-base | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]LCC:   7%|▋         | 1/15 [00:05<01:16,  5.43s/it]LCC:  13%|█▎        | 2/15 [00:16<01:56,  8.98s/it]LCC:  20%|██        | 3/15 [00:38<02:58, 14.83s/it]LCC:  27%|██▋       | 4/15 [00:57<02:58, 16.21s/it]LCC: 100%|██████████| 15/15 [18:34<00:00, 127.48s/it]LCC: 100%|██████████| 15/15 [18:34<00:00, 74.32s/it] 
-[0.9319999814033508, 0.5849999785423279] [768, 768]
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: xlm-roberta-base | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]LCC: 100%|██████████| 15/15 [18:40<00:00, 127.69s/it]LCC: 100%|██████████| 15/15 [18:40<00:00, 74.70s/it] 
-[0.9431999921798706, 0.5037999749183655] [550, 768]
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: xlm-roberta-base | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]LCC:   7%|▋         | 1/15 [00:06<01:29,  6.42s/it]LCC:   7%|▋         | 1/15 [00:04<01:05,  4.68s/it]LCC:  13%|█▎        | 2/15 [00:18<02:04,  9.57s/it]LCC:  13%|█▎        | 2/15 [00:18<02:14, 10.34s/it]LCC:  33%|███▎      | 5/15 [01:38<04:14, 25.42s/it]LCC:  20%|██        | 3/15 [00:37<02:48, 14.04s/it]LCC:  20%|██        | 3/15 [00:37<02:46, 13.90s/it]LCC:  27%|██▋       | 4/15 [01:06<03:37, 19.78s/it]LCC:  27%|██▋       | 4/15 [01:03<03:25, 18.66s/it]LCC:  40%|████      | 6/15 [02:29<05:07, 34.16s/it]LCC:  33%|███▎      | 5/15 [01:48<04:39, 27.96s/it]LCC:  33%|███▎      | 5/15 [01:43<04:24, 26.46s/it]LCC:  47%|████▋     | 7/15 [03:32<05:47, 43.44s/it]LCC:  40%|████      | 6/15 [02:41<05:28, 36.55s/it]LCC:  40%|████      | 6/15 [02:37<05:23, 35.89s/it]LCC:  53%|█████▎    | 8/15 [04:36<05:49, 49.98s/it]LCC:  47%|████▋     | 7/15 [03:29<05:28, 41.10s/it]LCC:  47%|████▋     | 7/15 [03:39<05:48, 43.57s/it]LCC:  53%|█████▎    | 8/15 [04:51<06:08, 52.58s/it]LCC:  53%|█████▎    | 8/15 [04:45<06:05, 52.27s/it]LCC:  60%|██████    | 9/15 [06:01<06:06, 61.03s/it]LCC:  60%|██████    | 9/15 [06:18<06:19, 63.25s/it]LCC:  60%|██████    | 9/15 [06:14<06:22, 63.74s/it]LCC:  67%|██████▋   | 10/15 [07:35<05:56, 71.27s/it]LCC:  67%|██████▋   | 10/15 [07:47<06:03, 72.79s/it]LCC:  67%|██████▋   | 10/15 [07:54<06:06, 73.26s/it]LCC:  73%|███████▎  | 11/15 [09:19<05:24, 81.12s/it]LCC:  73%|███████▎  | 11/15 [09:43<05:37, 84.31s/it]LCC:  73%|███████▎  | 11/15 [09:38<05:37, 84.45s/it]LCC:  80%|████████  | 12/15 [11:11<04:31, 90.65s/it]LCC:  80%|████████  | 12/15 [11:35<04:43, 94.38s/it]LCC:  80%|████████  | 12/15 [11:44<04:46, 95.59s/it]LCC:  87%|████████▋ | 13/15 [13:17<03:22, 101.40s/it]LCC:  87%|████████▋ | 13/15 [13:56<03:33, 106.65s/it]LCC:  87%|████████▋ | 13/15 [13:51<03:33, 106.91s/it]LCC:  93%|█████████▎| 14/15 [15:34<01:52, 112.12s/it]LCC:  93%|█████████▎| 14/15 [16:11<01:57, 117.09s/it]LCC:  93%|█████████▎| 14/15 [16:18<01:57, 117.25s/it]LCC: 100%|██████████| 15/15 [17:55<00:00, 120.86s/it]LCC: 100%|██████████| 15/15 [17:55<00:00, 71.73s/it] 
-[0.9575999975204468, 0.24979999661445618] [700, 700]
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: ernie-m-base_pytorch | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]LCC:   7%|▋         | 1/15 [00:03<00:43,  3.14s/it]LCC:  13%|█▎        | 2/15 [00:10<01:09,  5.36s/it]LCC:  20%|██        | 3/15 [00:18<01:23,  6.97s/it]LCC:  27%|██▋       | 4/15 [00:42<02:30, 13.69s/it]LCC:  33%|███▎      | 5/15 [01:24<03:56, 23.63s/it]LCC: 100%|██████████| 15/15 [18:49<00:00, 127.36s/it]LCC: 100%|██████████| 15/15 [18:49<00:00, 75.30s/it] 
-[0.9575999975204468, 0.05999999865889549] [750, 500]
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: ernie-m-base_pytorch | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]LCC: 100%|██████████| 15/15 [18:45<00:00, 127.96s/it]LCC: 100%|██████████| 15/15 [18:45<00:00, 75.01s/it] 
-[0.9655999541282654, 0.08020000159740448] [750, 500]
-SL data shape: torch.Size([6487, 768]) | TL data shape: torch.Size([6487, 768])
-Model: ernie-m-base_pytorch | Training data shape: torch.Size([3750, 768]) | Testing data shape: torch.Size([1250, 768])
-LCC:   0%|          | 0/15 [00:00<?, ?it/s]LCC:   7%|▋         | 1/15 [00:04<00:58,  4.20s/it]LCC:  40%|████      | 6/15 [02:02<04:19, 28.78s/it]LCC:   7%|▋         | 1/15 [00:05<01:14,  5.29s/it]LCC:  13%|█▎        | 2/15 [00:17<02:07,  9.84s/it]LCC:  13%|█▎        | 2/15 [00:20<02:21, 10.90s/it]LCC:  20%|██        | 3/15 [00:34<02:32, 12.67s/it]LCC:  20%|██        | 3/15 [00:34<02:31, 12.59s/it]LCC:  27%|██▋       | 4/15 [01:01<03:24, 18.58s/it]LCC:  27%|██▋       | 4/15 [01:03<03:27, 18.89s/it]LCC:  47%|████▋     | 7/15 [03:05<05:19, 39.93s/it]LCC:  33%|███▎      | 5/15 [01:38<04:13, 25.32s/it]LCC:  33%|███▎      | 5/15 [01:42<04:20, 26.06s/it]LCC:  53%|█████▎    | 8/15 [04:18<05:52, 50.41s/it]LCC:  40%|████      | 6/15 [02:32<05:13, 34.87s/it]LCC:  40%|████      | 6/15 [02:32<05:09, 34.44s/it]LCC:  47%|████▋     | 7/15 [03:29<05:37, 42.22s/it]LCC:  47%|████▋     | 7/15 [03:32<05:41, 42.67s/it]LCC:  60%|██████    | 9/15 [05:42<06:05, 60.90s/it]LCC:  53%|█████▎    | 8/15 [04:37<05:53, 50.51s/it]LCC:  53%|█████▎    | 8/15 [04:41<05:58, 51.22s/it]LCC:  67%|██████▋   | 10/15 [07:12<05:49, 69.85s/it]LCC:  60%|██████    | 9/15 [05:57<05:58, 59.67s/it]LCC:  60%|██████    | 9/15 [06:02<06:02, 60.39s/it]LCC:  73%|███████▎  | 11/15 [08:58<05:23, 80.79s/it]LCC:  67%|██████▋   | 10/15 [07:31<05:50, 70.16s/it]LCC:  67%|██████▋   | 10/15 [07:37<05:55, 71.14s/it]LCC:  80%|████████  | 12/15 [10:59<04:39, 93.15s/it]LCC:  73%|███████▎  | 11/15 [09:16<05:23, 80.93s/it]LCC:  73%|███████▎  | 11/15 [09:22<05:25, 81.44s/it]LCC:  87%|████████▋ | 13/15 [13:08<03:27, 104.00s/it]LCC:  80%|████████  | 12/15 [11:16<04:38, 92.78s/it]LCC:  80%|████████  | 12/15 [11:23<04:40, 93.53s/it]LCC:  87%|████████▋ | 13/15 [13:43<03:38, 109.05s/it]LCC:  87%|████████▋ | 13/15 [13:42<03:34, 107.28s/it]LCC:  93%|█████████▎| 14/15 [15:44<01:59, 119.69s/it]LCC:  93%|█████████▎| 14/15 [16:09<01:59, 119.20s/it]LCC:  93%|█████████▎| 14/15 [16:12<02:01, 121.27s/it]LCC: 100%|██████████| 15/15 [18:09<00:00, 127.44s/it]LCC: 100%|██████████| 15/15 [18:09<00:00, 72.66s/it] 
-[0.9783999919891357, 0.6656000018119812] [768, 768]
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |  491520 KB |  491520 KB |  491520 KB |
-|       from large pool |       0 B  |  485376 KB |  485376 KB |  485376 KB |
-|       from small pool |       0 B  |    6144 KB |    6144 KB |    6144 KB |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |  266461 KB |   19015 MB |   19015 MB |
-|       from large pool |       0 B  |  264416 KB |   17282 MB |   17282 MB |
-|       from small pool |       0 B  |    4095 KB |    1733 MB |    1733 MB |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |      15    |      15    |      15    |
-|       from large pool |       0    |      12    |      12    |      12    |
-|       from small pool |       0    |       3    |       3    |       3    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |      16    |  564219    |  564219    |
-|       from large pool |       0    |      14    |     647    |     647    |
-|       from small pool |       0    |       5    |  563572    |  563572    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |  491520 KB |  491520 KB |  491520 KB |
-|       from large pool |       0 B  |  485376 KB |  485376 KB |  485376 KB |
-|       from small pool |       0 B  |    6144 KB |    6144 KB |    6144 KB |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |  266461 KB |   19015 MB |   19015 MB |
-|       from large pool |       0 B  |  264416 KB |   17282 MB |   17282 MB |
-|       from small pool |       0 B  |    4095 KB |    1733 MB |    1733 MB |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |      15    |      15    |      15    |
-|       from large pool |       0    |      12    |      12    |      12    |
-|       from small pool |       0    |       3    |       3    |       3    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |      16    |  564219    |  564219    |
-|       from large pool |       0    |      14    |     647    |     647    |
-|       from small pool |       0    |       5    |  563572    |  563572    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 4373.854310750961s to process the data for nl-de
-LCC: 100%|██████████| 15/15 [17:45<00:00, 112.28s/it]LCC: 100%|██████████| 15/15 [17:45<00:00, 71.04s/it] 
-[0.9815999865531921, 0.6557999849319458] [450, 768]
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |  491520 KB |  491520 KB |  491520 KB |
-|       from large pool |       0 B  |  485376 KB |  485376 KB |  485376 KB |
-|       from small pool |       0 B  |    6144 KB |    6144 KB |    6144 KB |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |  266461 KB |   19015 MB |   19015 MB |
-|       from large pool |       0 B  |  264416 KB |   17282 MB |   17282 MB |
-|       from small pool |       0 B  |    4095 KB |    1733 MB |    1733 MB |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |      15    |      15    |      15    |
-|       from large pool |       0    |      12    |      12    |      12    |
-|       from small pool |       0    |       3    |       3    |       3    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |      16    |  564219    |  564219    |
-|       from large pool |       0    |      14    |     647    |     647    |
-|       from small pool |       0    |       5    |  563572    |  563572    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |  491520 KB |  491520 KB |  491520 KB |
-|       from large pool |       0 B  |  485376 KB |  485376 KB |  485376 KB |
-|       from small pool |       0 B  |    6144 KB |    6144 KB |    6144 KB |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |  266461 KB |   19015 MB |   19015 MB |
-|       from large pool |       0 B  |  264416 KB |   17282 MB |   17282 MB |
-|       from small pool |       0 B  |    4095 KB |    1733 MB |    1733 MB |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |      15    |      15    |      15    |
-|       from large pool |       0    |      12    |      12    |      12    |
-|       from small pool |       0    |       3    |       3    |       3    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |      16    |  564219    |  564219    |
-|       from large pool |       0    |      14    |     647    |     647    |
-|       from small pool |       0    |       5    |  563572    |  563572    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 4467.8584570884705s to process the data for nl-fr
-LCC: 100%|██████████| 15/15 [17:49<00:00, 114.05s/it]LCC: 100%|██████████| 15/15 [17:49<00:00, 71.33s/it] 
-[0.9863999485969543, 0.520799994468689] [450, 768]
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |  491520 KB |  491520 KB |  491520 KB |
-|       from large pool |       0 B  |  485376 KB |  485376 KB |  485376 KB |
-|       from small pool |       0 B  |    6144 KB |    6144 KB |    6144 KB |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |  266461 KB |   19015 MB |   19015 MB |
-|       from large pool |       0 B  |  264416 KB |   17282 MB |   17282 MB |
-|       from small pool |       0 B  |    4095 KB |    1733 MB |    1733 MB |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |      15    |      15    |      15    |
-|       from large pool |       0    |      12    |      12    |      12    |
-|       from small pool |       0    |       3    |       3    |       3    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |      16    |  564219    |  564219    |
-|       from large pool |       0    |      14    |     647    |     647    |
-|       from small pool |       0    |       5    |  563572    |  563572    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-|===========================================================================|
-|                  PyTorch CUDA memory summary, device ID 0                 |
-|---------------------------------------------------------------------------|
-|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
-|===========================================================================|
-|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
-|---------------------------------------------------------------------------|
-| Allocated memory      |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| Active memory         |       0 B  |  314710 KB |   21286 MB |   21286 MB |
-|       from large pool |       0 B  |  314710 KB |   20684 MB |   20684 MB |
-|       from small pool |       0 B  |    5432 KB |     602 MB |     602 MB |
-|---------------------------------------------------------------------------|
-| GPU reserved memory   |       0 B  |  491520 KB |  491520 KB |  491520 KB |
-|       from large pool |       0 B  |  485376 KB |  485376 KB |  485376 KB |
-|       from small pool |       0 B  |    6144 KB |    6144 KB |    6144 KB |
-|---------------------------------------------------------------------------|
-| Non-releasable memory |       0 B  |  266461 KB |   19015 MB |   19015 MB |
-|       from large pool |       0 B  |  264416 KB |   17282 MB |   17282 MB |
-|       from small pool |       0 B  |    4095 KB |    1733 MB |    1733 MB |
-|---------------------------------------------------------------------------|
-| Allocations           |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| Active allocs         |       0    |    5019    |    1127 K  |    1127 K  |
-|       from large pool |       0    |      18    |       1 K  |       1 K  |
-|       from small pool |       0    |    5005    |    1126 K  |    1126 K  |
-|---------------------------------------------------------------------------|
-| GPU reserved segments |       0    |      15    |      15    |      15    |
-|       from large pool |       0    |      12    |      12    |      12    |
-|       from small pool |       0    |       3    |       3    |       3    |
-|---------------------------------------------------------------------------|
-| Non-releasable allocs |       0    |      16    |  564219    |  564219    |
-|       from large pool |       0    |      14    |     647    |     647    |
-|       from small pool |       0    |       5    |  563572    |  563572    |
-|---------------------------------------------------------------------------|
-| Oversize allocations  |       0    |       0    |       0    |       0    |
-|---------------------------------------------------------------------------|
-| Oversize GPU segments |       0    |       0    |       0    |       0    |
-|===========================================================================|
-
-It took 4470.486141204834s to process the data for de-nl
-Reached 5 processes - joining
-
-###############################################################################
-Hábrók Cluster
-Job 2609821 for user 's4231317'
-Finished at: Sun Jun 18 22:42:13 CEST 2023
-
-Job details:
-============
-
-Job ID              : 2609821
-Name                : map
-User                : s4231317
-Partition           : gpushort
-Nodes               : a100gpu6
-Number of Nodes     : 1
-Cores               : 10
-Number of Tasks     : 1
-State               : COMPLETED
-Submit              : 2023-06-18T18:09:21
-Start               : 2023-06-18T21:09:34
-End                 : 2023-06-18T22:42:13
-Reserved walltime   : 04:00:00
-Used walltime       : 01:32:39
-Used CPU time       : 13:06:38 (efficiency: 84.90%)
-% User (Computation): 45.20%
-% System (I/O)      : 54.80%
-Mem reserved        : 70G
-Max Mem (Node/step) : 9.55G (a100gpu6, per node)
-Full Max Mem usage  : 9.55G
-Total Disk Read     : 7.88M
-Total Disk Write    : 967.00K
-
-Acknowledgements:
-=================
-
-Please see this page for information about acknowledging Hábrók in your publications:
-
-https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
-
-################################################################################

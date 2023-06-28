@@ -1,6 +1,6 @@
-import tensorflow as tf
-from tensorflow.keras import Model
-from tensorflow.keras import regularizers
+# import tensorflow as tf
+# from tensorflow.keras import Model
+# from tensorflow.keras import regularizers
 
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn import linear_model
@@ -56,7 +56,6 @@ def lca_mapping(source_train, source_test, target_train, target_test):
   return linear_mapping(target_test)
 
 def lca(sl_train, sl_test, tl_train, tl_test, dims, evaluation_function):
-  last_map = []
   nmax = [-1,-1]
   nmax_dim = [-1,-1]
 

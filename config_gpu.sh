@@ -5,7 +5,7 @@
 #SBATCH --job-name=jupyter
 #SBATCH --mem=16G
 #SBATCH --partition=gpu
-#SBATCH --time=24:00:00
+#SBATCH --time=04:00:00
 
 # Clear the module environment
 module purge

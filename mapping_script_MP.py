@@ -19,7 +19,7 @@ print(torch.cuda.is_available())
 settings_nnca = [
     {
         "neurons": [500],
-        "activation_function": "elu",
+        "activation_function": "relu", #"elu"
         "max_epochs": 250,
         "dropout": 0.0,
         "loss_function": "Huber",
