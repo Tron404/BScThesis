@@ -33,10 +33,11 @@ def load_tokenizer_model(model_name):
 
   return tokenizer, model
 
-def pool_embeddings(method, data, tokenized, pad_tok_id):
+def pool_embeddings(data, tokenized, pad_tok_id):
   if "attention_mask" in tokenized:
     attention_mask = tokenized["attention_mask"]
   else: # apparently ErnieM does NOT have attenion IDs in the tokenized output, so I am "computing" them myself - like in all other models, the model should not pay attention to [PAD] tokens, so they are ignored/not paid attention to
+    print("Oh no")
     token_ids = tokenized["input_ids"][0]
     padding_ids = len([tok for tok in token_ids if tok == pad_tok_id]) # count how many [PAD] tokens there are
     attention_mask = torch.ones((tokenized["input_ids"].shape)).to(device)
@@ -54,7 +55,7 @@ def get_embeddings(docs, lang, model_type, path):
   emb = NpyAppendArray(path + f"emb_{model_type}_{lang}.npy")
 
   for idx, d in enumerate(tqdm(docs, desc=f"{model_type} - {lang}")):
-    inputs = tokenizer(d,return_tensors="pt",max_length=512,truncation=True,padding="max_length")
+    inputs = tokenizer(d, return_tensors="pt", max_length=512, truncation=True, padding="max_length", return_attention_mask=True)
     
     pad_tok_id = tokenizer("[PAD]")
     pad_tok_id = pad_tok_id["input_ids"][1]
@@ -66,7 +67,7 @@ def get_embeddings(docs, lang, model_type, path):
 
     outputs = model(**inputs)
 
-    outputs = pool_embeddings(torch.mean, outputs[0], inputs, pad_tok_id)
+    outputs = pool_embeddings(outputs[0], inputs, pad_tok_id)
 
     last_hidden_state = np.array(outputs.cpu().detach().numpy())  # The last hidden-state is the first element of the output tuple
 

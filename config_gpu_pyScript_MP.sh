@@ -1,11 +1,11 @@
 #!/bin/bash
 #SBATCH --nodes=1
 #SBATCH --gpus-per-node=a100:1
-#SBATCH --tasks-per-node=10
+#SBATCH --tasks-per-node=20
 #SBATCH --job-name=map
-#SBATCH --mem=10G
+#SBATCH --mem=60G
 #SBATCH --partition=gpu
-#SBATCH --time=04:00:00
+#SBATCH --time=6:30:00
 
 # Clear the module environment
 module purge

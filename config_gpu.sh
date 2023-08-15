@@ -3,7 +3,7 @@
 #SBATCH --gpus-per-node=a100:1
 #SBATCH --tasks-per-node=8
 #SBATCH --job-name=jupyter
-#SBATCH --mem=16G
+#SBATCH --mem=24G
 #SBATCH --partition=gpu
 #SBATCH --time=04:00:00
 

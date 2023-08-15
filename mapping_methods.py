@@ -1,6 +1,6 @@
-# import tensorflow as tf
-# from tensorflow.keras import Model
-# from tensorflow.keras import regularizers
+import tensorflow as tf
+from tensorflow.keras import Model
+from tensorflow.keras import regularizers
 
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn import linear_model
@@ -239,13 +239,13 @@ def nnca(l1_train, l1_test, l2_train, l2_test, dimensions, settings, evaluation_
     
     print(f"{dimension} - {score} - {score_no_mapping}")
     
-    # if is_plotting:
-    #     add_lineplot(hist1.history["loss"], f"loss - sl-tl", "min", "NNCA", "Loss")
-    #     add_lineplot(hist1.history["val_loss"], f"val_loss - sl-tl", "min", "NNCA", "Loss")
-    #     plt.show()
-    #     add_lineplot(hist1.history["cosine_similarity"], f"cosine_similarity - sl-tl", "min", "NNCA", "cosine_similarity")
-    #     add_lineplot(hist1.history["val_cosine_similarity"], f"val_cosine_similarity - sl-tl", "min", "NNCA", "cosine_similarity")
-    #     plt.show()
+    if is_plotting:
+        add_lineplot(hist1.history["loss"], f"loss - sl-tl", "min", "NNCA", "Loss")
+        add_lineplot(hist1.history["val_loss"], f"val_loss - sl-tl", "min", "NNCA", "Loss")
+        plt.show()
+        add_lineplot(hist1.history["cosine_similarity"], f"cosine_similarity - sl-tl", "min", "NNCA", "cosine_similarity")
+        add_lineplot(hist1.history["val_cosine_similarity"], f"val_cosine_similarity - sl-tl", "min", "NNCA", "cosine_similarity")
+        plt.show()
 
     
     del l1_to_l2_clf

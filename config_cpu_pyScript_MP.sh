@@ -2,9 +2,9 @@
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=20
 #SBATCH --job-name=map
-#SBATCH --mem=70G
+#SBATCH --mem=60G
 #SBATCH --partition=regular
-#SBATCH --time=4:00:00
+#SBATCH --time=24:00:00
 
 # Clear the module environment
 module purge

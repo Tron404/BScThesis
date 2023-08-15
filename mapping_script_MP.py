@@ -11,7 +11,7 @@ from mapping_methods import *
 from sklearn.model_selection import train_test_split
 
 PATH = "Thesis/Embeddings"
-CORES = 1
+CORES = 20
 
 device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
 print(torch.cuda.is_available())
@@ -19,7 +19,7 @@ print(torch.cuda.is_available())
 settings_nnca = [
     {
         "neurons": [500],
-        "activation_function": "relu", #"elu"
+        "activation_function": "elu",
         "max_epochs": 250,
         "dropout": 0.0,
         "loss_function": "Huber",
@@ -35,12 +35,11 @@ map_dict = {
 
 settings = settings_nnca[0]
 
-languages = ["en", "ro", "fr", "de", "nl", "es"][:5]
+languages = ["en", "ro", "fr", "de", "nl"]
 language_pairs = list(permutations(languages,2))
 models = ["bert-base-multilingual-uncased", "mt5-base", "xlm-roberta-base", "ernie-m-base_pytorch"]
-size = 5000
+size = 7000
 dims = [100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 768]
-# mappings = [lca, lcc, nnca]
 mappings = [map_dict[sys.argv[1]]]
 evaluation_functions = [reciprocal_rank, mate_retrieval]
 
@@ -92,7 +91,7 @@ def evaluate_mapping(sl, tl, size, dims, evaluation_function, path_plot, path_re
             print(f"{language_pair} for {mapping.__name__} is already present, moving to the next pair")
             continue
 
-        print(language_pair, mapping, path_result)
+        print(language_pair, mapping.__name__, path_result)
 
         score_pair = {}
         for model in models:
@@ -146,17 +145,8 @@ if __name__ == "__main__":
 
                     no_processes = 0
                     processes = []
-
             
             if len(processes) > 0: # any remaining processes
                 print(f"Joining the remaining {len(processes)} processes")
                 for p in processes:
                         p.join()
-                
-                
-                        
-            
-            
-
-
-			

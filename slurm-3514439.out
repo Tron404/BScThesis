@@ -1,0 +1,111 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) 2023.01   2) StdEnv
+
+The following have been reloaded with a version change:
+  1) GCCcore/12.2.0 => GCCcore/11.3.0
+  2) GMP/6.2.1-GCCcore-12.2.0 => GMP/6.2.1-GCCcore-11.3.0
+  3) Python/3.10.8-GCCcore-12.2.0 => Python/3.10.4-GCCcore-11.3.0
+  4) SQLite/3.39.4-GCCcore-12.2.0 => SQLite/3.38.3-GCCcore-11.3.0
+  5) Tcl/8.6.12-GCCcore-12.2.0 => Tcl/8.6.12-GCCcore-11.3.0
+  6) XZ/5.2.7-GCCcore-12.2.0 => XZ/5.2.5-GCCcore-11.3.0
+  7) binutils/2.39-GCCcore-12.2.0 => binutils/2.38-GCCcore-11.3.0
+  8) bzip2/1.0.8-GCCcore-12.2.0 => bzip2/1.0.8-GCCcore-11.3.0
+  9) libffi/3.4.4-GCCcore-12.2.0 => libffi/3.4.2-GCCcore-11.3.0
+ 10) libreadline/8.2-GCCcore-12.2.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 11) ncurses/6.3-GCCcore-12.2.0 => ncurses/6.3-GCCcore-11.3.0
+ 12) zlib/1.2.12-GCCcore-12.2.0 => zlib/1.2.12-GCCcore-11.3.0
+
+[I 03:36:02.099 NotebookApp] Serving notebooks from local directory: /home2/s4231317/Thesis_All
+[I 03:36:02.100 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 03:36:02.100 NotebookApp] http://node7:8888/?token=d34499a03a0ad53ba3be8bb3646c8f485dfdb514b511c2d4
+[I 03:36:02.100 NotebookApp]  or http://127.0.0.1:8888/?token=d34499a03a0ad53ba3be8bb3646c8f485dfdb514b511c2d4
+[I 03:36:02.100 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 03:36:02.113 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home2/s4231317/.local/share/jupyter/runtime/nbserver-1032803-open.html
+    Or copy and paste one of these URLs:
+        http://node7:8888/?token=d34499a03a0ad53ba3be8bb3646c8f485dfdb514b511c2d4
+     or http://127.0.0.1:8888/?token=d34499a03a0ad53ba3be8bb3646c8f485dfdb514b511c2d4
+[W 03:36:42.783 NotebookApp] 404 GET /hub/api (10.5.3.42) 33.500000ms referer=None
+[I 03:36:42.787 NotebookApp] 302 GET /tree? (10.5.3.42) 0.370000ms
+[W 03:36:45.590 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.110000ms referer=None
+[I 03:36:45.594 NotebookApp] 302 GET /tree? (10.5.3.42) 0.310000ms
+[W 03:36:45.957 NotebookApp] 404 GET /hub/api (10.5.3.42) 0.840000ms referer=None
+[I 03:36:45.961 NotebookApp] 302 GET /tree? (10.5.3.42) 0.280000ms
+[W 03:36:45.975 NotebookApp] 404 GET /hub/api (10.5.3.42) 0.810000ms referer=None
+[I 03:36:45.978 NotebookApp] 302 GET /tree? (10.5.3.42) 0.240000ms
+[W 03:36:49.207 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.280000ms referer=None
+[W 03:36:49.208 NotebookApp] 404 GET /hub/api (10.5.3.42) 0.660000ms referer=None
+[I 03:36:49.211 NotebookApp] 302 GET /tree? (10.5.3.42) 0.350000ms
+[I 03:36:49.212 NotebookApp] 302 GET /tree? (10.5.3.42) 0.350000ms
+[W 03:36:49.228 NotebookApp] Forbidden
+[W 03:36:49.228 NotebookApp] 403 GET /api/kernelspecs?1692063409223 (10.5.3.42) 1.000000ms referer=None
+[W 03:36:49.229 NotebookApp] Forbidden
+[W 03:36:49.229 NotebookApp] 403 GET /api/kernels?1692063409223 (10.5.3.42) 1.280000ms referer=None
+[W 03:36:49.229 NotebookApp] Forbidden
+[W 03:36:49.229 NotebookApp] 403 GET /api/kernels?1692063409224 (10.5.3.42) 1.350000ms referer=None
+[W 03:36:49.229 NotebookApp] Forbidden
+[W 03:36:49.230 NotebookApp] 403 GET /api/sessions?1692063409225 (10.5.3.42) 0.440000ms referer=None
+[W 03:36:49.232 NotebookApp] Forbidden
+[W 03:36:49.232 NotebookApp] 403 GET /api/kernelspecs?1692063409228 (10.5.3.42) 0.340000ms referer=None
+[W 03:36:55.206 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.140000ms referer=None
+[I 03:36:55.214 NotebookApp] 302 GET /tree? (10.5.3.42) 0.300000ms
+[I 03:36:55.350 NotebookApp] Kernel started: 101816b0-a300-43ca-8c19-3e633c392e5d, name: python3
+[W 03:37:06.440 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.270000ms referer=None
+[W 03:37:06.441 NotebookApp] 404 GET /hub/api (10.5.3.42) 0.830000ms referer=None
+[I 03:37:06.444 NotebookApp] 302 GET /tree? (10.5.3.42) 0.320000ms
+[I 03:37:06.444 NotebookApp] 302 GET /tree? (10.5.3.42) 0.260000ms
+[W 03:37:06.471 NotebookApp] Forbidden
+[W 03:37:06.471 NotebookApp] 403 GET /api/kernelspecs?1692063426464 (10.5.3.42) 0.730000ms referer=None
+[W 03:37:06.471 NotebookApp] Forbidden
+[W 03:37:06.471 NotebookApp] 403 GET /api/kernels?1692063426465 (10.5.3.42) 0.790000ms referer=None
+[W 03:37:06.472 NotebookApp] Forbidden
+[W 03:37:06.472 NotebookApp] 403 GET /api/kernels?1692063426466 (10.5.3.42) 0.570000ms referer=None
+[W 03:37:06.472 NotebookApp] Forbidden
+[W 03:37:06.473 NotebookApp] 403 GET /api/sessions?1692063426467 (10.5.3.42) 0.630000ms referer=None
+[W 03:37:06.474 NotebookApp] Forbidden
+[W 03:37:06.475 NotebookApp] 403 GET /api/kernelspecs?1692063426471 (10.5.3.42) 0.340000ms referer=None
+slurmstepd: error: *** JOB 3514439 ON node7 CANCELLED AT 2023-08-15T06:36:25 DUE TO TIME LIMIT ***
+
+###############################################################################
+Hábrók Cluster
+Job 3514439 for user 's4231317'
+Finished at: Tue Aug 15 06:36:26 CEST 2023
+
+Job details:
+============
+
+Job ID              : 3514439
+Name                : jupyter
+User                : s4231317
+Partition           : regularshort
+Nodes               : node7
+Number of Nodes     : 1
+Cores               : 6
+Number of Tasks     : 1
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-08-15T03:35:55
+Start               : 2023-08-15T03:35:55
+End                 : 2023-08-15T06:36:26
+Reserved walltime   : 03:00:00
+Used walltime       : 03:00:31
+Used CPU time       : 00:00:36 (efficiency:  0.06%)
+% User (Computation): 88.30%
+% System (I/O)      : 11.70%
+Mem reserved        : 16G
+Max Mem (Node/step) : 695.30M (node7, per node)
+Full Max Mem usage  : 695.30M
+Total Disk Read     : 5.97M
+Total Disk Write    : 821.59K
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

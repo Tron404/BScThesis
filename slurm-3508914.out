@@ -1,0 +1,87 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) 2023.01   2) StdEnv
+
+The following have been reloaded with a version change:
+  1) GCCcore/12.2.0 => GCCcore/11.3.0
+  2) GMP/6.2.1-GCCcore-12.2.0 => GMP/6.2.1-GCCcore-11.3.0
+  3) Python/3.10.8-GCCcore-12.2.0 => Python/3.10.4-GCCcore-11.3.0
+  4) SQLite/3.39.4-GCCcore-12.2.0 => SQLite/3.38.3-GCCcore-11.3.0
+  5) Tcl/8.6.12-GCCcore-12.2.0 => Tcl/8.6.12-GCCcore-11.3.0
+  6) XZ/5.2.7-GCCcore-12.2.0 => XZ/5.2.5-GCCcore-11.3.0
+  7) binutils/2.39-GCCcore-12.2.0 => binutils/2.38-GCCcore-11.3.0
+  8) bzip2/1.0.8-GCCcore-12.2.0 => bzip2/1.0.8-GCCcore-11.3.0
+  9) libffi/3.4.4-GCCcore-12.2.0 => libffi/3.4.2-GCCcore-11.3.0
+ 10) libreadline/8.2-GCCcore-12.2.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 11) ncurses/6.3-GCCcore-12.2.0 => ncurses/6.3-GCCcore-11.3.0
+ 12) zlib/1.2.12-GCCcore-12.2.0 => zlib/1.2.12-GCCcore-11.3.0
+
+[I 16:54:30.564 NotebookApp] Serving notebooks from local directory: /home2/s4231317/Thesis_All
+[I 16:54:30.565 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 16:54:30.565 NotebookApp] http://node56:8888/?token=efd649b83b338d4f7067d076afb2c1eda7b78c78ae6dfe60
+[I 16:54:30.565 NotebookApp]  or http://127.0.0.1:8888/?token=efd649b83b338d4f7067d076afb2c1eda7b78c78ae6dfe60
+[I 16:54:30.565 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:54:30.602 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home2/s4231317/.local/share/jupyter/runtime/nbserver-595319-open.html
+    Or copy and paste one of these URLs:
+        http://node56:8888/?token=efd649b83b338d4f7067d076afb2c1eda7b78c78ae6dfe60
+     or http://127.0.0.1:8888/?token=efd649b83b338d4f7067d076afb2c1eda7b78c78ae6dfe60
+[W 16:54:48.588 NotebookApp] 404 GET /hub/api (10.5.3.42) 170.130000ms referer=None
+[I 16:54:48.596 NotebookApp] 302 GET /tree? (10.5.3.42) 0.590000ms
+[W 16:54:54.416 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.670000ms referer=None
+[I 16:54:54.421 NotebookApp] 302 GET /tree? (10.5.3.42) 0.350000ms
+[W 16:54:54.552 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.210000ms referer=None
+[I 16:54:54.555 NotebookApp] 302 GET /tree? (10.5.3.42) 0.320000ms
+[W 16:54:54.981 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.160000ms referer=None
+[I 16:54:54.985 NotebookApp] 302 GET /tree? (10.5.3.42) 0.340000ms
+[W 16:54:57.839 NotebookApp] 404 GET /hub/api (10.5.3.42) 2.410000ms referer=None
+[I 16:54:57.843 NotebookApp] 302 GET /tree? (10.5.3.42) 0.310000ms
+[W 16:55:04.646 NotebookApp] 404 GET /hub/api (10.5.3.42) 4.800000ms referer=None
+[I 16:55:04.652 NotebookApp] 302 GET /tree? (10.5.3.42) 0.390000ms
+[I 16:55:04.773 NotebookApp] Kernel started: cea51d65-c559-4fa3-9579-8a2993b90048, name: python3
+[W 16:55:15.354 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.240000ms referer=None
+[I 16:55:15.357 NotebookApp] 302 GET /tree? (10.5.3.42) 0.330000ms
+slurmstepd: error: *** JOB 3508914 ON node56 CANCELLED AT 2023-08-14T19:54:24 DUE TO TIME LIMIT ***
+
+###############################################################################
+Hábrók Cluster
+Job 3508914 for user 's4231317'
+Finished at: Mon Aug 14 19:54:26 CEST 2023
+
+Job details:
+============
+
+Job ID              : 3508914
+Name                : jupyter
+User                : s4231317
+Partition           : regularshort
+Nodes               : node56
+Number of Nodes     : 1
+Cores               : 6
+Number of Tasks     : 1
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-08-14T16:54:20
+Start               : 2023-08-14T16:54:20
+End                 : 2023-08-14T19:54:25
+Reserved walltime   : 03:00:00
+Used walltime       : 03:00:05
+Used CPU time       : 00:03:32 (efficiency:  0.33%)
+% User (Computation): 98.44%
+% System (I/O)      :  1.56%
+Mem reserved        : 16G
+Max Mem (Node/step) : 673.07M (node56, per node)
+Full Max Mem usage  : 673.07M
+Total Disk Read     : 5.97M
+Total Disk Write    : 821.59K
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

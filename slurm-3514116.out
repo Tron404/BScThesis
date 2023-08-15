@@ -1,0 +1,85 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) 2023.01   2) StdEnv
+
+The following have been reloaded with a version change:
+  1) GCCcore/12.2.0 => GCCcore/11.3.0
+  2) GMP/6.2.1-GCCcore-12.2.0 => GMP/6.2.1-GCCcore-11.3.0
+  3) Python/3.10.8-GCCcore-12.2.0 => Python/3.10.4-GCCcore-11.3.0
+  4) SQLite/3.39.4-GCCcore-12.2.0 => SQLite/3.38.3-GCCcore-11.3.0
+  5) Tcl/8.6.12-GCCcore-12.2.0 => Tcl/8.6.12-GCCcore-11.3.0
+  6) XZ/5.2.7-GCCcore-12.2.0 => XZ/5.2.5-GCCcore-11.3.0
+  7) binutils/2.39-GCCcore-12.2.0 => binutils/2.38-GCCcore-11.3.0
+  8) bzip2/1.0.8-GCCcore-12.2.0 => bzip2/1.0.8-GCCcore-11.3.0
+  9) libffi/3.4.4-GCCcore-12.2.0 => libffi/3.4.2-GCCcore-11.3.0
+ 10) libreadline/8.2-GCCcore-12.2.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 11) ncurses/6.3-GCCcore-12.2.0 => ncurses/6.3-GCCcore-11.3.0
+ 12) zlib/1.2.12-GCCcore-12.2.0 => zlib/1.2.12-GCCcore-11.3.0
+
+[I 20:29:39.951 NotebookApp] Serving notebooks from local directory: /home2/s4231317/Thesis_All
+[I 20:29:39.951 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 20:29:39.951 NotebookApp] http://node7:8888/?token=b9e5cd101dbae56ddb01f34064f4ade7a735029da5db74c8
+[I 20:29:39.951 NotebookApp]  or http://127.0.0.1:8888/?token=b9e5cd101dbae56ddb01f34064f4ade7a735029da5db74c8
+[I 20:29:39.951 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 20:29:39.963 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home2/s4231317/.local/share/jupyter/runtime/nbserver-263374-open.html
+    Or copy and paste one of these URLs:
+        http://node7:8888/?token=b9e5cd101dbae56ddb01f34064f4ade7a735029da5db74c8
+     or http://127.0.0.1:8888/?token=b9e5cd101dbae56ddb01f34064f4ade7a735029da5db74c8
+[W 20:30:07.781 NotebookApp] 404 GET /hub/api (10.5.3.42) 37.850000ms referer=None
+[I 20:30:07.787 NotebookApp] 302 GET /tree? (10.5.3.42) 0.440000ms
+[W 20:30:19.241 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.940000ms referer=None
+[I 20:30:19.245 NotebookApp] 302 GET /tree? (10.5.3.42) 0.310000ms
+[W 20:30:19.495 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.090000ms referer=None
+[I 20:30:19.499 NotebookApp] 302 GET /tree? (10.5.3.42) 0.340000ms
+[W 20:30:22.410 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.130000ms referer=None
+[I 20:30:22.418 NotebookApp] 302 GET /tree? (10.5.3.42) 0.330000ms
+[W 20:30:27.269 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.040000ms referer=None
+[I 20:30:27.272 NotebookApp] 302 GET /tree? (10.5.3.42) 0.300000ms
+[I 20:30:27.372 NotebookApp] Kernel started: 1c2578fc-3263-4f03-bf91-4375558204bc, name: python3
+[W 20:30:37.843 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.020000ms referer=None
+[I 20:30:37.846 NotebookApp] 302 GET /tree? (10.5.3.42) 0.340000ms
+slurmstepd: error: *** JOB 3514116 ON node7 CANCELLED AT 2023-08-14T23:29:54 DUE TO TIME LIMIT ***
+
+###############################################################################
+Hábrók Cluster
+Job 3514116 for user 's4231317'
+Finished at: Mon Aug 14 23:29:56 CEST 2023
+
+Job details:
+============
+
+Job ID              : 3514116
+Name                : jupyter
+User                : s4231317
+Partition           : regularshort
+Nodes               : node7
+Number of Nodes     : 1
+Cores               : 6
+Number of Tasks     : 1
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-08-14T20:29:32
+Start               : 2023-08-14T20:29:33
+End                 : 2023-08-14T23:29:55
+Reserved walltime   : 03:00:00
+Used walltime       : 03:00:22
+Used CPU time       : 00:00:13 (efficiency:  0.02%)
+% User (Computation): 90.93%
+% System (I/O)      :  9.07%
+Mem reserved        : 16G
+Max Mem (Node/step) : 470.03M (node7, per node)
+Full Max Mem usage  : 470.03M
+Total Disk Read     : 5.97M
+Total Disk Write    : 821.59K
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

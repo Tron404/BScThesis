@@ -1,0 +1,136 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) 2023.01   2) StdEnv
+
+The following have been reloaded with a version change:
+  1) GCCcore/12.2.0 => GCCcore/11.3.0
+  2) GMP/6.2.1-GCCcore-12.2.0 => GMP/6.2.1-GCCcore-11.3.0
+  3) Python/3.10.8-GCCcore-12.2.0 => Python/3.10.4-GCCcore-11.3.0
+  4) SQLite/3.39.4-GCCcore-12.2.0 => SQLite/3.38.3-GCCcore-11.3.0
+  5) Tcl/8.6.12-GCCcore-12.2.0 => Tcl/8.6.12-GCCcore-11.3.0
+  6) XZ/5.2.7-GCCcore-12.2.0 => XZ/5.2.5-GCCcore-11.3.0
+  7) binutils/2.39-GCCcore-12.2.0 => binutils/2.38-GCCcore-11.3.0
+  8) bzip2/1.0.8-GCCcore-12.2.0 => bzip2/1.0.8-GCCcore-11.3.0
+  9) libffi/3.4.4-GCCcore-12.2.0 => libffi/3.4.2-GCCcore-11.3.0
+ 10) libreadline/8.2-GCCcore-12.2.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 11) ncurses/6.3-GCCcore-12.2.0 => ncurses/6.3-GCCcore-11.3.0
+ 12) zlib/1.2.12-GCCcore-12.2.0 => zlib/1.2.12-GCCcore-11.3.0
+
+[I 06:44:42.400 NotebookApp] Serving notebooks from local directory: /home2/s4231317/Thesis_All
+[I 06:44:42.400 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 06:44:42.400 NotebookApp] http://node56:8888/?token=064f1f205dbdb3409fe7fff951e7ddddec2e27d7635f9fbb
+[I 06:44:42.400 NotebookApp]  or http://127.0.0.1:8888/?token=064f1f205dbdb3409fe7fff951e7ddddec2e27d7635f9fbb
+[I 06:44:42.400 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 06:44:42.406 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home2/s4231317/.local/share/jupyter/runtime/nbserver-3566450-open.html
+    Or copy and paste one of these URLs:
+        http://node56:8888/?token=064f1f205dbdb3409fe7fff951e7ddddec2e27d7635f9fbb
+     or http://127.0.0.1:8888/?token=064f1f205dbdb3409fe7fff951e7ddddec2e27d7635f9fbb
+[W 06:44:59.478 NotebookApp] 404 GET /hub/api (10.5.3.42) 32.320000ms referer=None
+[I 06:44:59.484 NotebookApp] 302 GET /tree? (10.5.3.42) 0.340000ms
+[W 06:45:03.871 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.400000ms referer=None
+[I 06:45:03.875 NotebookApp] 302 GET /tree? (10.5.3.42) 0.410000ms
+[W 06:45:04.181 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.050000ms referer=None
+[I 06:45:04.184 NotebookApp] 302 GET /tree? (10.5.3.42) 0.320000ms
+[W 06:45:06.987 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.310000ms referer=None
+[W 06:45:06.991 NotebookApp] 404 GET /hub/api (10.5.3.42) 0.760000ms referer=None
+[I 06:45:06.995 NotebookApp] 302 GET /tree? (10.5.3.42) 0.450000ms
+[I 06:45:06.996 NotebookApp] 302 GET /tree? (10.5.3.42) 0.260000ms
+[W 06:45:07.020 NotebookApp] Forbidden
+[W 06:45:07.020 NotebookApp] 403 GET /api/kernelspecs?1692074707014 (10.5.3.42) 0.930000ms referer=None
+[W 06:45:07.020 NotebookApp] Forbidden
+[W 06:45:07.020 NotebookApp] 403 GET /api/kernels?1692074707015 (10.5.3.42) 1.060000ms referer=None
+[W 06:45:07.021 NotebookApp] Forbidden
+[W 06:45:07.021 NotebookApp] 403 GET /api/kernels?1692074707016 (10.5.3.42) 0.610000ms referer=None
+[W 06:45:07.021 NotebookApp] Forbidden
+[W 06:45:07.021 NotebookApp] 403 GET /api/sessions?1692074707017 (10.5.3.42) 0.670000ms referer=None
+[W 06:45:07.025 NotebookApp] Forbidden
+[W 06:45:07.025 NotebookApp] 403 GET /api/kernelspecs?1692074707020 (10.5.3.42) 0.340000ms referer=None
+[W 06:45:10.727 NotebookApp] 404 GET /hub/api (10.5.3.42) 2.260000ms referer=None
+[I 06:45:10.732 NotebookApp] 302 GET /tree? (10.5.3.42) 0.310000ms
+[I 06:45:10.824 NotebookApp] Kernel started: 1b4cf47a-5a63-402d-aa01-d31cd84adda2, name: python3
+[E 06:45:20.847 NotebookApp] Uncaught exception in zmqstream callback
+    Traceback (most recent call last):
+      File "/home2/s4231317/virtual_env/thesis/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 634, in _handle_events
+        self._handle_recv()
+      File "/home2/s4231317/virtual_env/thesis/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 653, in _handle_recv
+        msg = self.socket.recv_multipart(zmq.NOBLOCK, copy=self._recv_copy)
+      File "/home2/s4231317/virtual_env/thesis/lib/python3.10/site-packages/zmq/sugar/socket.py", line 799, in recv_multipart
+        while self.getsockopt(zmq.RCVMORE):
+      File "zmq/backend/cython/socket.pyx", line 478, in zmq.backend.cython.socket.Socket.get
+      File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+    zmq.error.ZMQError: Socket operation on non-socket
+Exception in callback None()
+handle: <Handle cancelled>
+Traceback (most recent call last):
+  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home2/s4231317/virtual_env/thesis/lib/python3.10/site-packages/tornado/platform/asyncio.py", line 206, in _handle_events
+    handler_func(fileobj, events)
+  File "/home2/s4231317/virtual_env/thesis/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 634, in _handle_events
+    self._handle_recv()
+  File "/home2/s4231317/virtual_env/thesis/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 653, in _handle_recv
+    msg = self.socket.recv_multipart(zmq.NOBLOCK, copy=self._recv_copy)
+  File "/home2/s4231317/virtual_env/thesis/lib/python3.10/site-packages/zmq/sugar/socket.py", line 799, in recv_multipart
+    while self.getsockopt(zmq.RCVMORE):
+  File "zmq/backend/cython/socket.pyx", line 478, in zmq.backend.cython.socket.Socket.get
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+[W 06:45:21.620 NotebookApp] 404 GET /hub/api (10.5.3.42) 1.440000ms referer=None
+[W 06:45:21.624 NotebookApp] 404 GET /hub/api (10.5.3.42) 0.910000ms referer=None
+[I 06:45:21.624 NotebookApp] 302 GET /tree? (10.5.3.42) 0.290000ms
+[I 06:45:21.630 NotebookApp] 302 GET /tree? (10.5.3.42) 0.230000ms
+[W 06:45:21.668 NotebookApp] Forbidden
+[W 06:45:21.669 NotebookApp] 403 GET /api/kernels?1692074721664 (10.5.3.42) 0.890000ms referer=None
+[W 06:45:21.669 NotebookApp] Forbidden
+[W 06:45:21.669 NotebookApp] 403 GET /api/kernelspecs?1692074721662 (10.5.3.42) 0.950000ms referer=None
+[W 06:45:21.670 NotebookApp] Forbidden
+[W 06:45:21.670 NotebookApp] 403 GET /api/sessions?1692074721666 (10.5.3.42) 0.620000ms referer=None
+[W 06:45:21.670 NotebookApp] Forbidden
+[W 06:45:21.670 NotebookApp] 403 GET /api/kernels?1692074721665 (10.5.3.42) 0.640000ms referer=None
+[W 06:45:21.673 NotebookApp] Forbidden
+[W 06:45:21.674 NotebookApp] 403 GET /api/kernelspecs?1692074721670 (10.5.3.42) 0.330000ms referer=None
+slurmstepd: error: *** JOB 3514446 ON node56 CANCELLED AT 2023-08-15T09:44:54 DUE TO TIME LIMIT ***
+
+###############################################################################
+Hábrók Cluster
+Job 3514446 for user 's4231317'
+Finished at: Tue Aug 15 09:44:56 CEST 2023
+
+Job details:
+============
+
+Job ID              : 3514446
+Name                : jupyter
+User                : s4231317
+Partition           : regularshort
+Nodes               : node56
+Number of Nodes     : 1
+Cores               : 6
+Number of Tasks     : 1
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-08-15T06:44:35
+Start               : 2023-08-15T06:44:35
+End                 : 2023-08-15T09:44:55
+Reserved walltime   : 03:00:00
+Used walltime       : 03:00:20
+Used CPU time       : 00:00:14 (efficiency:  0.02%)
+% User (Computation): 84.58%
+% System (I/O)      : 15.42%
+Mem reserved        : 16G
+Max Mem (Node/step) : 461.46M (node56, per node)
+Full Max Mem usage  : 461.46M
+Total Disk Read     : 5.97M
+Total Disk Write    : 821.59K
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################
